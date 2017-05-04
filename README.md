@@ -1,4 +1,4 @@
 Jenkinstest
 ===========
 
-Prosjekt for å teste jenkins byggeprosess
+Prosjekt for å teste jenkins pipeline
