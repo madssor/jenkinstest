@@ -1,9 +1,5 @@
-node('maven'){
-    stages {
-        stage('build') {
-            steps {
-                sh 'mvn clean install'
-            }
-        }
-    }
+node {
+
+    stage 'Build'
+    sh "mvn clean install"
 }
