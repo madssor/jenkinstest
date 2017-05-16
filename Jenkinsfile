@@ -1,4 +1,4 @@
-node('maven')
+node('maven'){
     stages {
         stage('build') {
             steps {
