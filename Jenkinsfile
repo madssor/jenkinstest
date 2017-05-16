@@ -1,4 +1,4 @@
-pipeline {
+node('maven'){
     stages {
         stage('build') {
             steps {
